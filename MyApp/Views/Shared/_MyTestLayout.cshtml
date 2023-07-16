@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div style="background-color:aquamarine; padding: 10px">
+        Menu: Home - Products - News - About Us
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div style="background-color:aqua; padding: 10px">
+        Copyright: Max D. Shustov
+    </div>
+
+    @RenderSection("Scripts", false)
+</body>
+</html>
